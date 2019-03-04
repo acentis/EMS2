@@ -1,0 +1,119 @@
+{
+    "wpForm": {
+        "wpName": "asdsadsa",
+        "projectName": "p2",
+        "projects": [
+            {
+                "text": "Project 1",
+                "value": "p1"
+            },
+            {
+                "text": "Project 2",
+                "value": "p2"
+            },
+            {
+                "text": "Project 3",
+                "value": "p3"
+            }
+        ],
+        "offeredCost": 122,
+        "calculatedCost": 2210,
+        "paymentPercentage": 75,
+        "totalCost": 300076,
+        "effectiveCost": 129,
+        "status": "s3",
+        "statuses": [
+            {
+                "text": "Status 1",
+                "value": "s1"
+            },
+            {
+                "text": "Status 2",
+                "value": "s2"
+            },
+            {
+                "text": "Status 3",
+                "value": "s3"
+            },
+            {
+                "text": "Status 4",
+                "value": "s4"
+            }
+        ],
+        "assignedEmployees": [
+            "u1",
+            "u3",
+            "u5"
+        ],
+        "employees": [
+            {
+                "text": "User 1",
+                "value": "u1"
+            },
+            {
+                "text": "User 2",
+                "value": "u2"
+            },
+            {
+                "text": "User 3",
+                "value": "u3"
+            },
+            {
+                "text": "User 4",
+                "value": "u4"
+            },
+            {
+                "text": "User 5",
+                "value": "u5"
+            }
+        ]
+    },
+    "invoice": {
+        "data": [
+            [
+                "Tiger Nixon",
+                "System Architect",
+                "Edinburgh",
+                "2011/04/25",
+                "S1",
+                "U2",
+                "30",
+                "A3",
+                "B9"
+            ],
+            [
+                "Garrett Winters",
+                "Accountant",
+                "Tokyo",
+                "2011/07/25",
+                "S1",
+                "U2",
+                "30",
+                "A3",
+                "B9"
+            ]
+        ]
+    },
+    "employees": [
+        {
+            "id": 1,
+            "name": "Vasile Coroban",
+            "disabled": false
+        },
+        {
+            "id": 2,
+            "name": "John McArthur",
+          "disabled": false
+        },
+        {
+            "id": 3,
+            "name": "Crio Trio",
+          "disabled": true
+        },
+        {
+            "id": 4,
+            "name": "Tralea Valea",
+          "disabled": false
+        }
+    ]
+}

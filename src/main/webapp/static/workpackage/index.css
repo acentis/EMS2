@@ -1,0 +1,31 @@
+html, body {
+    margin: 5px;
+    padding: 0;
+}
+
+body {
+    background-image: -webkit-gradient(linear, left top, left bottom,
+    from(rgba(128, 165, 203, 0.28)),
+    to(rgba(255, 255, 255, 0.25)));
+}
+
+.starter-template {
+    padding: 3rem .5rem;
+    text-align: center;
+}
+
+.workpackage-form {
+    padding-top: 5rem;
+}
+
+.dropdown-menu-right {
+    right: 0;
+    left: auto;
+}
+
+#employee-worktime table > tbody td {
+    vertical-align: middle;
+}
+#employee-worktime table > tbody td input{
+    border-style: dashed;
+}

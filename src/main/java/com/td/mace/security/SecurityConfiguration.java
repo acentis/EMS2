@@ -86,6 +86,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 				.antMatchers("/UserAttendance", "/userAttendanceslist").permitAll()
 				.antMatchers("/UserAttendance", "/monthlyReport").permitAll()
 				.antMatchers("/edit-userAttendance-*").permitAll()
+				.antMatchers("/work-package").permitAll()
 				.and().formLogin()
 				.loginPage("/login").loginProcessingUrl("/login")
 				.usernameParameter("ssoId").passwordParameter("password").and()

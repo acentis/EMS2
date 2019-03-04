@@ -155,3 +155,23 @@ input#customerNameDropDown{
 ul.es-list > li.es-visible{
     border: none;
 }
+
+input {
+	height: auto !important;
+}
+
+.workpackage-form {
+	padding-top: 2rem;
+}
+
+.dropdown-menu-right {
+	right: 0;
+	left: auto;
+}
+
+#employee-worktime table > tbody td {
+	vertical-align: middle;
+}
+#employee-worktime table > tbody td input{
+	border-style: dashed;
+}
