@@ -548,6 +548,7 @@
 <script type="text/javascript" src="<c:url value='/static/workpackage/workpackage.js' />"></script>
 <script type="text/javascript" src="<c:url value='/static/workpackage/workpackage-form.js' />"></script>
 <script type="text/javascript" src="<c:url value='/static/workpackage/invoice.js' />"></script>
+<script type="text/javascript" src="<c:url value='/static/workpackage/utils.js' />"></script>
 <script type="text/javascript" src="<c:url value='/static/workpackage/statistics.js' />"></script>
 <script type="text/javascript" src="<c:url value='/static/workpackage/employee-worktime.js' />"></script>
 </body>
