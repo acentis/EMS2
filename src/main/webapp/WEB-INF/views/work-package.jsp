@@ -8,9 +8,10 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-15">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <script type="text/javascript" src="<c:url value='/static/bootstrap4/jquery-3.3.1.js' />"></script>
+
     <link href="<c:url value='/static/bootstrap4/bootstrap.css' />" rel="stylesheet" />
     <link href="<c:url value='/static/css/app.css' />" rel="stylesheet" />
+    <link href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css" rel="stylesheet" />
     <title>Work Package</title>
 </head>
 <body>
@@ -531,9 +532,11 @@
 </script>
 
 
-
+<script type="text/javascript" src="<c:url value='/static/bootstrap4/jquery-3.3.1.js' />"></script>
 <script type="text/javascript" src="<c:url value='/static/bootstrap4/popper.js' />"></script>
 <script type="text/javascript" src="<c:url value='/static/bootstrap4/bootstrap.js' />"></script>
+<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
 
 <!-- Vuejs library and dependencies -->
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -541,8 +544,7 @@
 <script src="https://cdn.jsdelivr.net/npm/axios@0.12.0/dist/axios.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/lodash@4.13.1/lodash.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
-<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
-<script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+
 
 
 <script type="text/javascript" src="<c:url value='/static/workpackage/workpackage.js' />"></script>

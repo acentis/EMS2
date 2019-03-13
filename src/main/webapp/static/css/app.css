@@ -87,7 +87,7 @@ body, #mainWrapper, .form-control{
 }
 
 
-ul {
+ul.ems-navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;

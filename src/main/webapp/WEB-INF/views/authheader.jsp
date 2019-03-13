@@ -12,7 +12,7 @@
 				code="generic.logout" /></a></span>
 </div>
 <div>
-	<ul>
+	<ul class="ems-navbar">
 		<!-- Mitarbeiter -->
 		<li><a href="<c:url value='/list' />"><spring:message
 						code="authheader.menu.employees" /></a></li>
